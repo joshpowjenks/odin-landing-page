@@ -36,7 +36,7 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     margin: -10px;
-    padding: 220px;
+    padding: 50px;
     padding-left: 150px;
     padding-right: 150px;
     font-size: 48px;
@@ -44,5 +44,29 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 180px;
+}
+
+.website-awesome {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-text {
+    font-size: 18px;
+    font-weight:100;
+    color: #F9FAF8;
+    margin: 6px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 6px;
 }
